@@ -1,1 +1,22 @@
 /* write your override styles here */
+#wall .tag-1 {
+  display: none;
+}
+#wall #tag-2:nth-child(2) {
+  display: none;
+}
+#wall #tag-3:nth-child(3).slick.wicked {
+  display: none;
+}
+#wall .parent:nth-child(4) #tag-4{
+    display: none;
+}
+#wall .parent:nth-child(5) #tag-5.slick{
+    display: none;
+}
+#wall .parent:nth-child(6) div:nth-child(2) #tag-6:first-child {
+    display: none;
+}
+#wall .parent:nth-child(7) > div > #tag-7.slick{
+    display: none;
+}
